@@ -11,7 +11,7 @@ int main()
 	setlocale(LC_ALL, "");
 	
 	
-	int a;         //Variable entier (int) nommée (a)
+	int a;         //Variable entier (int) nommÃ©e (a)
 
 	
 
@@ -22,13 +22,13 @@ int main()
 	std::cin >> a;  //L'utilisateur rentre un nombre 	
 
 	
-	if ((a % 2) == 0)  //Formule: Si le nombre rentré est modulo de 2 
-						//Repond le nombre rentré est pair
+	if ((a % 2) == 0)  //Formule: Si le nombre rentrÃ© est modulo de 2 
+						//Repond le nombre rentrÃ© est pair
 
 	{
 		std::cout << a << " est un nombre pair.";     //
 	}
-	else				//Sinon repond le nombre rentré est impair
+	else				//Sinon repond le nombre rentrÃ© est impair
 
 	{
 		std::cout << a << " est un nombre impair.";
@@ -39,9 +39,9 @@ int main()
 	
 
 	/*   Plan Tests                                      
-	
+	// KM : Excellent plan de tests, exemples complets
 
-	     Nombre entrée									Résultat attendue
+	     Nombre entrÃ©e									RÃ©sultat attendue
 
 
 		     10                                        10 est un nombre pair
