@@ -1,4 +1,4 @@
-//But:  Creer un prgramme qui tient en compte seulement 5 chiffres et qui les mets en verticale
+//FR : But:  Creer un prgramme qui tient en compte seulement 5 chiffres et qui les mets en verticale
 //Auteur: Diallo Abdoulaye	
 //Date:2020-09-11
 
@@ -15,34 +15,34 @@ using namespace std;
 
 int main()
 {
-	setlocale(LC_ALL, "");                              //Pour les charactères accentuées
+	setlocale(LC_ALL, "");                              //FR : Pour les charactÃ¨res accentuÃ©es
 
 
-	int a,chiffre1=0,chiffre2=0,chiffre3=0,chiffre4=0,chiffre5=0;       //Les variables utilsés pour ce programme
+	int a,chiffre1=0,chiffre2=0,chiffre3=0,chiffre4=0,chiffre5=0;       //FR : Les variables utilsÃ©s pour ce programme
 
 
 	
 	
 
-	std::cout << "Entrez un nombre à cinq chiffres :";                //Ce que voit l'utilisateur voit  en premier lieu
+	std::cout << "Entrez un nombre Ã  cinq chiffres :";                //Ce que voit l'utilisateur voit  en premier lieu
 
-	std::cin >> a;                                                   //Il repond à la question en rentrant les 5 chiffres
+	std::cin >> a;                                                   //Il repond Ã  la question en rentrant les 5 chiffres
 
-				if (a < 10000 || a > 99999)                             //Condition:   Si a(le nombre rentré)  est plus  petit que 10000 ou plus grand que 
+				if (a < 10000 || a > 99999)                             //Condition:   Si a(le nombre rentrÃ©)  est plus  petit que 10000 ou plus grand que 
 																		
 	{
-		std::cout<<"Ce nombre ne contient pas 5 chiffres. ";              // 99999, l'utilisateur voit sa et ne peut pas voir le résultat
+		std::cout<<"Ce nombre ne contient pas 5 chiffres. ";              // FR : 99999, l'utilisateur voit sa et ne peut pas voir le rÃ©sultat
 	}
 	
 	
-				else												    //Par contre si a(le nombre rentré) est compris entre 10000 et 99999 
-																		//L'utilisateur peut voir le résultat
+				else												    //Par contre si a(le nombre rentrÃ©) est compris entre 10000 et 99999 
+																		//L'utilisateur peut voir le rÃ©sultat
 				
 	{
 
-		chiffre1 = a / 10000;											// Les chiffres répresente chacun un calcul et affiche le resultat ainsi de suite
+		chiffre1 = a / 10000;											// Les chiffres rÃ©presente chacun un calcul et affiche le resultat ainsi de suite
 																	
-			std::cout << chiffre1 << std::endl;								//Pour chiffre1,c'est (a) diviser par 10000
+			std::cout << chiffre1 << std::endl;								//FR : Pour chiffre1,c'est (a) diviser par 10000
 
 
 
@@ -79,7 +79,7 @@ int main()
 	/*
 			Plan test			
 				
-								Nombre entrée											Résutat attendue
+								Nombre entrÃ©e											RÃ©sutat attendue
 		
 	
 								45678													45678(VERTICALEMENT)
